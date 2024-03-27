@@ -1,0 +1,22 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.model {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+.param-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+  align-items: center;
+}
